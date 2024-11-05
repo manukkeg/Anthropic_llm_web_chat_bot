@@ -48,8 +48,8 @@ app.post('/api/chat', async (req, res) => {
     }
     
 });
-
+module.exports = app;
 // Start the server
-app.listen(PORT, () => {
+/*app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
-});
+});*/

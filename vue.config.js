@@ -1,5 +1,13 @@
 const { defineConfig } = require('@vue/cli-service');
 require('dotenv').config();
+
+module.exports = defineConfig({
+  transpileDependencies: true,
+});
+
+
+/*const { defineConfig } = require('@vue/cli-service');
+require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 
 module.exports = defineConfig({
@@ -14,3 +22,4 @@ module.exports = defineConfig({
     },
   },
 });
+*/
